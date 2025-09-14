@@ -1,0 +1,32 @@
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./card.css);
+@import url(./main.css);
+@import url(./contacto.css);
+@import url(./variables.css);
+@import url(./nosotros.css);
+@import url(./sevicios.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 320px) {
+  body {
+    min-width: 320px;
+    overflow-x: hidden;
+  }
+  
+  main {
+    padding: 5px;
+  }
+}

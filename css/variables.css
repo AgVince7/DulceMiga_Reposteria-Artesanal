@@ -1,0 +1,14 @@
+:root {
+  --color-primario: bisque;
+  --color-secundario: hsl(33, 100%, 74%);
+  --color-terciario: beige;
+  --color-fondo: #f0f0f0;
+  --color-texto: black;
+  --segundo-color-texto: rgb(30, 30, 30);
+  --tercer-color-texto: rgb(150, 150, 150);
+  --Cuarto-color-texto: #f0f0f0;
+  --color-footer: #111111;
+  --fuente-principal: Georgia, "Times New Roman", Times, serif;
+  --border-radius: 8px;
+  --border-radius-card: 12px;
+}

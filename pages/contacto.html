@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="Logo" type="image/png" href="../img/Logo.png" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../img/Logo.png" alt="Logo de DulceMiga" />
+      </div>
+      <nav>
+        <ul>
+          <li><a class="nav__link" href="../index.html">Inicio</a></li>
+           <li>
+            <a class="nav__link" href="../pages/servicios.html">Servicios</a>
+          </li>
+          <li><a class="nav__link" href="../pages/equipo.html">Nosotros</a></li>
+          <li>
+            <a class="nav__link" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="#" method="#">
+        <fieldset class="formulario">
+          <legend class="title__form">Contactanos</legend>
+
+          <label for="nombreUsuario">Nombre:</label>
+          <input
+            type="text"
+            id="nombreUsuario"
+            name="nombre"
+            placeholder="Juan"
+            required
+          />
+
+          <label for="emailUsuario">Email:</label>
+          <input
+            type="email"
+            id="emailUsuario"
+            name="email"
+            placeholder="juan@gmail.com"
+            required
+          />
+
+          <label for="asuntoUsuario">Asunto:</label>
+          <input
+            type="text"
+            id="asuntoUsuario"
+            name="asunto"
+            placeholder="Asunto"
+            required
+          />
+
+          <label for="comentario">Escriba su comentario:</label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            placeholder="Escriba algo..."
+            required
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer class="footer">
+      <div class="footer__contact">
+        <p>📍 Calle Siempre Viva 123</p>
+        <p>📧 DulceMiga@gmail.com</p>
+        <p>📞 3364000000</p>
+      </div>
+      <nav class="footer__networks">
+        <a href="https://www.instagram.com/" title="Instagram">
+          <img
+            class="social__icon"
+            src="../img/instagram.jpg"
+            alt="Instagram"
+          />
+        </a>
+        <a href="https://www.facebook.com/" title="Facebook">
+          <img class="social__icon" src="../img/facebook.jpg" alt="Facebook" />
+        </a>
+        <a href="https://www.WhatsApp.com/" title="WhatsApp">
+          <img class="social__icon" src="../img/WhatsApp.jpg" alt="WhatsApp" />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
